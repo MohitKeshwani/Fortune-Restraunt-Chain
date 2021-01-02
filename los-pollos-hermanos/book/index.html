@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Los Pollos Hermanos</title>
+
+	<!-- Google Fonts -->
+    <link rel="stylesheet" href="fonts/font-awesome.css">
+
+	<!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="fonts/google-fonts.css">
+    
+	<!-- Bootstrap Scripts -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+	
+	<!-- Favicon -->
+	<link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+<!-- header section starts -->
+
+<header id="header">
+
+
+      
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" target="_blank" href="Images/los-pollos-hermanos-menu.pdf">Menu</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="#home">Book A Table</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="#location">Location</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+<a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+</header>
+<!-- home section starts  -->
+
+<div class="coantainer-fluid main">
+	<div class="header__hero" style="background-image: url('Images/book-a-table-header-image.jpg'); background-position: 0 50%;">
+		<a href="/"><img src="Images/download.png" alt="Los Pollos Hermanos"></a>
+	</div>
+
+</div>
+
+<!-- home section ends  -->
+
+
+<!-- booking section starts  -->
+
+<section id="booking">
+
+<div class="container"> <div class=" text-center">
+        <h1>Book Your Table</h1>
+    </div>
+    <div class="row book-main">
+        <div class="col-lg-9 mx-auto">
+            <div class="card mt-2 mx-auto p-4 bg-light">
+                <div class="card-body bg-light">
+                    <div class="container">
+                        <form id="contact-form" role="form">
+                            <div class="controls">
+                                <div class="row book-cells">
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_name">Firstname *</label> <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required."> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_lastname">Lastname *</label> <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required."> </div>
+                                    </div>
+                                </div>
+                                <div class="row book-cells">
+									<div class="col-md-6">
+                                        <div class="form-group"> <label for="form_email">Email *</label> <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required."> </div>
+                                    </div>
+									
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_tel">Phone *</label> <input id="form_tel" type="tel" name="tel" class="form-control" placeholder="Please enter your Phone Number *" required="required" data-error="Valid email is required."> </div>
+                                    </div>
+                                
+                                </div>
+								
+								<div class="row book-cells">
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_need">Please specify the Timing *</label> <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                                <option value="" selected disabled>--Select Your Time--</option>
+                                                <option>9:00AM - 11:00AM</option>
+                                                <option>1:00PM - 3:00PM</option>
+                                                <option>6:00PM - 8:00PM</option>
+                                                <option>8:00PM - 9:00PM</option>
+												<option>9:00PM - 10:00PM</option>
+												<option>10:00PM - 11:00PM</option>
+												<option>11:00PM - 12:00AM</option>
+                                            </select> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label for="form_need">Please specify the Number of People *</label> <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                                <option value="" selected disabled>--Select Number of People--</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+												<option>6</option>
+												<option>7</option>
+												<option>more</option>
+                                            </select> </div>
+                                    </div>
+									
+									</div>
+                                    <div class="col-md-12"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block book-btn" value="Book"> 
+									</div>
+                                </div>
+                                
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div>
+</div>
+
+</section>
+
+<!-- footer section starts  -->
+
+<section id="footer" class="container-fluid">
+
+<div class="row align-items-center">
+
+<div class="col-md-4 brand">
+
+<a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+
+<div class="icons">
+    <a target="_blank" href="https://www.facebook.com/" class="fab fa-facebook-square"></a>
+    <a target="_blank" href="https://www.twitter.com" class="fab fa-twitter-square"></a>
+    <a target="_blank" href="https://www.instagram.com" class="fab fa-instagram-square"></a>
+    <a target="_blank" href="https://www.pinterest.com" class="fab fa-pinterest-square"></a>
+</div>
+
+</div>
+
+<div class="col-md-4 footer-links">
+<h3>Links:</h3>
+<a href="#home">Home</a>
+<a href="#special">Special</a>
+<a href="#about">About</a>
+<a href="#review">Reviews</a>
+<a href="#contact">Contact Us</a>
+<a href="book/index.html">Book A Table</a>
+<a target="_blank" href="Images/los-pollos-hermanos-menu.pdf">Menu</a>
+</div>
+
+<div class="col-md-4 text-center text-md-left letter">
+<h2>Newsletter</h2>
+<input type="text"><br>
+<input type="submit" value="subscribe">
+</div>
+
+</div>
+
+<h1>&copy; copyright @ by <span>Mohit Keshwani</span></h1>
+
+</section>
+
+<!-- footer section ends  -->
+
+</body>
+</html>
